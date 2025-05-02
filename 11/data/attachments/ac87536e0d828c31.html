@@ -1,0 +1,44 @@
+<div>POST to https://x-clients-be.onrender.com/employee</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;id&quot;: 1633655724,
+    &quot;firstName&quot;: &quot;Alex&quot;,
+    &quot;lastName&quot;: &quot;Taranov&quot;,
+    &quot;middleName&quot;: &quot;Andreevich&quot;,
+    &quot;companyId&quot;: 1717,
+    &quot;email&quot;: &quot;godfrey.rempel@hotmail.com&quot;,
+    &quot;url&quot;: &quot;www.skylar-will.io&quot;,
+    &quot;phone&quot;: &quot;(578) 738-0199&quot;,
+    &quot;birthdate&quot;: &quot;2024-08-31T20:19:56.214Z&quot;,
+    &quot;isActive&quot;: true
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>x-client-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDYxOTc1NDEsImV4cCI6MTc0NjE5ODQ0MX0.BBcczfqrGrgewrWFYLER6-EfhqHxGY2oRH734GDaIT4</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://x-clients-be.onrender.com/employee&#39; -H &#39;Accept: */*&#39; -H &#39;x-client-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDYxOTc1NDEsImV4cCI6MTc0NjE5ODQ0MX0.BBcczfqrGrgewrWFYLER6-EfhqHxGY2oRH734GDaIT4&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 1633655724,
+    &quot;firstName&quot;: &quot;Alex&quot;,
+    &quot;lastName&quot;: &quot;Taranov&quot;,
+    &quot;middleName&quot;: &quot;Andreevich&quot;,
+    &quot;companyId&quot;: 1717,
+    &quot;email&quot;: &quot;godfrey.rempel@hotmail.com&quot;,
+    &quot;url&quot;: &quot;www.skylar-will.io&quot;,
+    &quot;phone&quot;: &quot;(578) 738-0199&quot;,
+    &quot;birthdate&quot;: &quot;2024-08-31T20:19:56.214Z&quot;,
+    &quot;isActive&quot;: true
+}&#39;
+</div>

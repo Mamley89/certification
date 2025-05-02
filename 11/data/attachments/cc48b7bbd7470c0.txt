@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Oren, Glover, (994) 773-5563, 1720)

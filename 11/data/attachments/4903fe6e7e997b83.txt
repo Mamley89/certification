@@ -1,0 +1,1 @@
+insert into employee(is_active, first_name, last_name, middle_name, phone, email, avatar_url, company_id) values (true, Alex, Taranov, Andreevich, 220-476-7944, earnest.medhurst@hotmail.com, www.talia-berge.co, 1714)

@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Gladys, Lind, 1-072-293-0380, 1715)
