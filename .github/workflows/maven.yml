@@ -24,7 +24,7 @@ jobs:
       - name: Load test report history
         uses: actions/checkout@v4
         if: always()
-        continue-on-error: true
+        continue-on-error: false
         with:
           ref: gh-pages
           path: gh-pages
