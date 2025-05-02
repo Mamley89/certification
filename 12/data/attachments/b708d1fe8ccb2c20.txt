@@ -1,0 +1,1 @@
+insert into company("name", description) values (Russel, Russel and Russel, Baby, Health & Home)

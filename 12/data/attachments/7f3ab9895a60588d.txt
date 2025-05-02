@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Jules, Heller, 1-227-406-2769, 1732)

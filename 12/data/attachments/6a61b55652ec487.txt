@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Hermina, Keebler, 1-157-790-3112, 1734)
